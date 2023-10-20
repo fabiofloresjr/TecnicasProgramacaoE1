@@ -1,9 +1,10 @@
 package negocio;
 
+
 public interface ContaService {
-	public void sacar(Double quantia) throws Exception;
-		
-	public void depositar(Double quantia) throws Exception;
-		
-	public void verificaSaque(Double quantia) throws Exception;
+    void cadastrarConta(ContaBancaria conta);
+    
+    void depositar(String nomeCorrentista, double quantia) throws Exception;
+    
+    void sacar(String nomeCorrentista, double quantia) throws Exception;
 }
