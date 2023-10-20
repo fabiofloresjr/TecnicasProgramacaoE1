@@ -1,6 +1,7 @@
 package negocio;
 
 import dados.BancoDados;
+import entidades.ContaBancaria;
 
 public class ContaServiceImplementacao implements ContaService {
     private BancoDados bancoDados;

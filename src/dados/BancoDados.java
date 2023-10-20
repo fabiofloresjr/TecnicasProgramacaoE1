@@ -2,7 +2,8 @@ package dados;
 
 import java.util.ArrayList;
 import java.util.List;
-import negocio.ContaBancaria;
+
+import entidades.ContaBancaria;
 
 public class BancoDados {
     private List<ContaBancaria> contas = new ArrayList<>();

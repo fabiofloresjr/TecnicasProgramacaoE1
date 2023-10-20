@@ -1,4 +1,4 @@
-package negocio;
+package entidades;
 
 public class ContaBancaria {
     private String nomeCorrentista;

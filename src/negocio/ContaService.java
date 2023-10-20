@@ -1,5 +1,6 @@
 package negocio;
 
+import entidades.ContaBancaria;
 
 public interface ContaService {
     void cadastrarConta(ContaBancaria conta);
